@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Franklin College Delivery Guide MVP</title>
+    <meta
+      name="description"
+      content="Mobile-friendly delivery guide for drivers going from Old Main to the Napolitan Student Center mail room at Franklin College."
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="brand-bar py-3 shadow-sm sticky-top">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between gap-3">
+          <div>
+            <p class="text-uppercase small mb-1 brand-kicker">
+              Franklin College delivery system
+            </p>
+            <h1 class="h3 mb-0 fw-bold">Campus Delivery Hub</h1>
+          </div>
+          <span class="badge rounded-pill text-bg-warning text-dark px-3 py-2"
+            >MVP</span
+          >
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section py-4 py-md-5">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-7">
+              <div class="hero-card card border-0 shadow-sm">
+                <div class="card-body p-4 p-md-5">
+                  <p class="section-label mb-2">For delivery drivers</p>
+                  <h2 class="display-6 fw-bold mb-3">
+                    Start at Old Main. End at the Student Center mail room.
+                  </h2>
+                  <p class="lead text-secondary mb-4">
+                    Many drivers stop at Old Main first. This guide shows the
+                    correct building, the Student Center entrance, and the
+                    elevator that goes down to the mail room.
+                  </p>
+
+                  <div class="d-grid gap-3 d-sm-flex">
+                    <a href="#route" class="btn btn-primary btn-lg px-4"
+                      >See Delivery Route</a
+                    >
+                    <a
+                      href="#inside"
+                      class="btn btn-outline-primary btn-lg px-4"
+                      >Inside Directions</a
+                    >
+                  </div>
+
+                  <div class="row g-3 mt-4 stats-row">
+                    <div class="col-12 col-md-4">
+                      <div class="info-chip">
+                        <span class="chip-title">Start</span>
+                        <strong>Old Main</strong>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="info-chip">
+                        <span class="chip-title">Drop-off</span>
+                        <strong>Student Center Mail Room</strong>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="info-chip">
+                        <span class="chip-title">Call for help</span>
+                        <strong>Mail Room or Security</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5">
+              <div class="card border-0 shadow-sm h-100 summary-card">
+                <div class="card-body p-4">
+                  <p class="section-label mb-2">Quick summary</p>
+                  <h3 class="h4 fw-bold mb-3">What drivers need to do</h3>
+                  <ol class="instruction-list mb-0">
+                    <li>
+                      If you are at Old Main, do not leave the package there.
+                    </li>
+                    <li>
+                      Use the campus map below to go to the Napolitan Student
+                      Center.
+                    </li>
+                    <li>Enter through the Student Center doors shown below.</li>
+                    <li>
+                      Take the elevator down to reach the mail room level.
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="quick-actions" class="py-4 quick-actions-wrap">
+        <div class="container">
+          <div class="row g-3">
+            <div class="col-12 col-md-4">
+              <a
+                class="action-card btn w-100 text-start p-4 shadow-sm"
+                href="#route"
+              >
+                <span class="action-icon">🗺️</span>
+                <span class="action-title d-block">View Route</span>
+                <span class="action-text">Old Main to Student Center</span>
+              </a>
+            </div>
+            <div class="col-12 col-md-4">
+              <a
+                class="action-card btn w-100 text-start p-4 shadow-sm"
+                href="tel:3177388077"
+              >
+                <span class="action-icon">📞</span>
+                <span class="action-title d-block">Call Mail Room</span>
+                <span class="action-text">317-738-8077</span>
+                <span class="action-title d-block">24/7</span>
+              </a>
+            </div>
+            <div class="col-12 col-md-4">
+              <a
+                class="action-card btn w-100 text-start p-4 shadow-sm danger-card"
+                href="tel:3177388888"
+              >
+                <span class="action-icon">🚨</span>
+                <span class="action-title d-block">Call Campus Security</span>
+                <span class="action-text">317-738-8888</span>
+                <span class="action-title d-block">8am - 5pm</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="route"
+        class="py-4 py-md-5 bg-light-subtle border-top border-bottom"
+      >
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-lg-8">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body p-4">
+                  <p class="section-label mb-2">Step 1</p>
+                  <h3 class="h4 fw-bold mb-3">
+                    Follow the map from Old Main to the Student Center
+                  </h3>
+                  <div class="map-image-wrap">
+                    <img
+                      src="assets/campus-map.jpeg"
+                      alt="Franklin College campus map showing Old Main and Napolitan Student Center"
+                      class="img-fluid rounded-4 map-image"
+                    />
+                    <div class="map-pin pin-old-main">Old Main</div>
+                    <div class="map-pin pin-student-center">Student Center</div>
+                    <div class="route-note route-start">Start here</div>
+                    <div class="route-note route-end">Deliver here</div>
+                  </div>
+                  <p class="mb-0 text-secondary mt-3">
+                    Old Main is building <strong>2</strong> on the map. The
+                    Napolitan Student Center is building <strong>7</strong>.
+                    Drivers who begin at Old Main should continue across campus
+                    to the Student Center for package delivery.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body p-4">
+                  <p class="section-label mb-2">Route steps</p>
+                  <h3 class="h4 fw-bold mb-3">Driver instructions</h3>
+                  <div class="route-step">
+                    <span class="step-pill">1</span>
+                    <div>
+                      <strong>At Old Main?</strong>
+                      <p class="mb-0 text-secondary">
+                        Do not stop there for package drop-off.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="route-step">
+                    <span class="step-pill">2</span>
+                    <div>
+                      <strong>Go to building 7</strong>
+                      <p class="mb-0 text-secondary">
+                        That is the Napolitan Student Center on the map.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="route-step">
+                    <span class="step-pill">3</span>
+                    <div>
+                      <strong>Enter Student Center</strong>
+                      <p class="mb-0 text-secondary">
+                        Use the main doors shown in the photo below.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="route-step mb-0">
+                    <span class="step-pill">4</span>
+                    <div>
+                      <strong>Take elevator down</strong>
+                      <p class="mb-0 text-secondary">
+                        Use the elevator to go down to the mail room level.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-4 py-md-5">
+        <div class="container">
+          <div class="row g-4 align-items-stretch">
+            <div class="col-lg-6">
+              <div class="card border-0 shadow-sm h-100 photo-card">
+                <img
+                  src="assets/student-center.jpeg"
+                  alt="Napolitan Student Center entrance"
+                  class="card-img-top photo-frame"
+                />
+                <div class="card-body p-4">
+                  <p class="section-label mb-2">Step 2</p>
+                  <h3 class="h4 fw-bold mb-2">
+                    Use the Student Center entrance
+                  </h3>
+                  <p class="mb-0 text-secondary">
+                    This is the building entrance drivers should use for
+                    delivery once they arrive at the Napolitan Student Center.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="card border-0 shadow-sm h-100 photo-card">
+                <img
+                  src="assets/elevator.jpeg"
+                  alt="Elevator inside the Student Center that goes down to the mail room"
+                  class="card-img-top photo-frame"
+                />
+                <div class="card-body p-4">
+                  <p class="section-label mb-2">Step 3</p>
+                  <h3 class="h4 fw-bold mb-2">
+                    Take this elevator down to the mail room
+                  </h3>
+                  <p class="mb-0 text-secondary">
+                    After entering the Student Center, use this elevator to go
+                    down. The mail room is reached by going to the lower level.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="inside" class="py-4 py-md-5">
+        <div class="container">
+          <div class="text-center mb-4">
+            <p class="section-label mb-2">Inside directions</p>
+            <h3 class="fw-bold">Simple delivery flow</h3>
+            <p class="text-secondary mb-0">
+              Keep the instructions clear enough that a first-time driver can
+              finish the drop-off without confusion.
+            </p>
+          </div>
+
+          <div class="row g-3">
+            <div class="col-md-4">
+              <div class="card border-0 shadow-sm h-100 direction-card">
+                <div class="card-body p-4">
+                  <span class="step-number">1</span>
+                  <h4 class="h5 fw-bold mt-3">Go to the Student Center</h4>
+                  <p class="mb-0 text-secondary">
+                    If you started at Old Main, continue to building 7 on the
+                    campus map.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 shadow-sm h-100 direction-card">
+                <div class="card-body p-4">
+                  <span class="step-number">2</span>
+                  <h4 class="h5 fw-bold mt-3">Enter and find the elevator</h4>
+                  <p class="mb-0 text-secondary">
+                    Use the Student Center entrance and then use the elevator
+                    shown above.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 shadow-sm h-100 direction-card">
+                <div class="card-body p-4">
+                  <span class="step-number">3</span>
+                  <h4 class="h5 fw-bold mt-3">Go down to the mail room</h4>
+                  <p class="mb-0 text-secondary">
+                    Take the elevator down and complete package drop-off at the
+                    mail room.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="help" class="py-4 py-md-5 bg-dark text-white">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-7">
+              <p class="section-label text-warning mb-2">Need help?</p>
+              <h3 class="fw-bold mb-3">Support options for drivers</h3>
+              <p class="text-white-50 mb-4">
+                This MVP uses direct phone actions now. Later, this can connect
+                to email, text alerts, or a staff dashboard.
+              </p>
+              <div class="d-flex flex-wrap gap-2">
+                <a class="btn btn-light" href="tel:3177388077"
+                  >Call Mail Room</a
+                >
+                <a class="btn btn-outline-light" href="tel:3177388888"
+                  >Call Security</a
+                >
+                <button id="notifyBtn" class="btn btn-warning text-dark">
+                  I'm Here, Need Help
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="alert-panel rounded-4 p-4">
+                <h4 class="h5 fw-bold text-dark">Live status panel</h4>
+                <p class="small text-secondary-emphasis">
+                  Prototype display for future integration
+                </p>
+                <div id="statusOutput" class="status-output">
+                  No active driver alerts.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-4 border-top bg-white">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between gap-2 small text-secondary"
+      >
+        <span>Franklin College Campus Delivery Hub MVP</span>
+        <span>Mail Room: 317-738-8077 | Campus Security: 317-738-8888</span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
