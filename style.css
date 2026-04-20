@@ -200,6 +200,10 @@ body {
   border-color: var(--brand-blue-dark);
 }
 
+.map {
+  border-radius: 20px;
+}
+
 @media (max-width: 991px) {
   .quick-actions-wrap {
     margin-top: 0;
